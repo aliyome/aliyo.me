@@ -39,7 +39,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,ts,svelte}": [
+    "*.{js,ts,svelte,html,css}": [
       "prettier --write",
       "git add"
     ],
