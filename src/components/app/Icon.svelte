@@ -1,12 +1,14 @@
-<script>
-  export let icon;
-  export let color;
-  let path = [];
+<script lang="ts">
+  import type { IconDefinition } from '@fortawesome/fontawesome-common-types';
+
+  export let icon: IconDefinition;
+  export let color: string;
+  let path: string;
   let classes = '';
   let viewBox = '';
   $: viewBox = '0 0 ' + icon.icon[0] + ' ' + icon.icon[1];
   $: classes = 'fa-svelte ' + ($$props.class ? $$props.class : '');
-  $: path = icon.icon[4];
+  $: path = icon.icon[4] as string;
 </script>
 
 <style>

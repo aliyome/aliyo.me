@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Icon from './Icon.svelte';
+  import Icon from './components/app/Icon.svelte';
   import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 </script>
 
