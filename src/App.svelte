@@ -13,6 +13,7 @@
   <h1 class="text-xl">aliyome</h1>
   <hr />
   <a
+    aria-label="twitter"
     href="https://twitter.com/aliyome"
     target="_blank"
     rel="noopener noreferer">
